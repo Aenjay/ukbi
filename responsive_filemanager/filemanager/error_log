@@ -1,0 +1,2 @@
+[10-Jun-2019 15:07:58 Asia/Jakarta] PHP Fatal error:  Call to undefined function mb_internal_encoding() in /home/polba231/public_html/responsive_filemanager/filemanager/config/config.php on line 4
+[10-Jun-2019 15:09:16 Asia/Jakarta] PHP Fatal error:  Call to undefined function mb_internal_encoding() in /home/polba231/public_html/responsive_filemanager/filemanager/config/config.php on line 4

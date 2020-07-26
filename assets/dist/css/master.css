@@ -1,0 +1,149 @@
+
+.btn-xs,
+.btn-group-xs > .btn {
+  padding: 3px 7px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+@media (max-width: 768px) {
+    .dataTables_filter{
+        text-align: left;
+        font-size: 11pt;
+    }
+    .dataTables_filter .form-control{
+        width: 80%;
+    }
+
+    .btn-step{
+    	width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+	.btn-step{
+		width: 49.5%;
+	}
+
+}
+.error{
+	color: #F44336;
+}
+.icon-small{
+	font-size:10pt;
+}
+
+.btn-step{
+	height: 50px;
+}
+
+.nowrap{
+    white-space:nowrap;
+}
+#DataTable thead tr th{
+    text-align: center;
+    vertical-align: middle;
+    white-space:nowrap;
+}
+#DataTable tbody tr td{
+    white-space: nowrap;
+    vertical-align: middle;
+}
+#DataTable tfoot tr th{
+  vertical-align: middle;
+  white-space: nowrap;
+}
+#DataTable tfoot tr td{
+  vertical-align: middle;
+  white-space: nowrap;
+}
+#DataTable-Child thead tr th{
+    text-align: center;
+    vertical-align: middle;
+    white-space:nowrap;
+}
+#DataTable-Child tbody tr td{
+    white-space: nowrap;
+    vertical-align: middle;
+}
+#DataTable-Child tfoot tr th{
+  vertical-align: middle;
+  white-space: nowrap;
+}
+#DataTable-Child tfoot tr td{
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.table-detail tr th{
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.table-detail tr th:nth-child(2){
+  text-align: center;
+}
+.table-child tr th{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.table-child tr td{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#table-detail th {
+    white-space:nowrap;
+}
+#DataTable th {
+    white-space:nowrap;
+}
+
+.selectpicker {
+    width: 100%;
+}
+.validation-field {
+    font-size: 9pt;
+    color: red;
+}
+.box-benar {
+  background: #c2ffa3;
+}
+
+    .z-depth-1{
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    }
+
+    .z-depth-1-half{
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    }
+
+    .z-depth-2 {
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    }
+
+    .z-depth-3 {
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    }
+
+    .z-depth-4 {
+        box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+    }
+
+    .z-depth-5 {
+        box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+    }
+    .show-checkbox{
+        position: relative;
+        left: 0px;
+        opacity: 1;
+    }
+    [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: relative;
+        left: 0;
+        opacity: 1;
+        top: 2px;
+    }
+    .fixed-plugin .text-check-in-out {
+        color: #FFFFFF;
+        padding: 10px;
+        border-radius: 0 0 6px 6px;
+        width: auto;
+    }

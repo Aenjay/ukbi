@@ -1,0 +1,19 @@
+.bg-header-dark {
+    background-color: #13172a!important;
+}
+
+.bg-image {
+    background-position: 0 38%;
+    background-size: cover;
+}
+.bg-black-75 {
+    background-color: rgb(0 0 0 / 70%)!important;
+}
+
+.pt-6, .py-6 {
+    padding-top: 1.5rem!important;
+}
+
+.pb-6, .py-6 {
+    padding-bottom: 2.5rem!important;
+}
